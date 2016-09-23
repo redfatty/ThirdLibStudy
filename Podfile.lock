@@ -1,0 +1,26 @@
+PODS:
+  - IQKeyboardManager (4.0.6)
+  - IQKeyboardManagerSwift (4.0.6)
+  - Masonry (1.0.2)
+  - SnapKit (3.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - IQKeyboardManagerSwift
+  - Masonry
+  - SnapKit
+  - YYKit
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: c52debb1967799ae7addb98eab0cf328083a874f
+  IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SnapKit: 98af0a4e9369d3c58f758967518081dbdc7eb1d9
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 6c907e7593442ebd753b20f230b0b81a0ffa8ac0
+
+COCOAPODS: 1.0.1

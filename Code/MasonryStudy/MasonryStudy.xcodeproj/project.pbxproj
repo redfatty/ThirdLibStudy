@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B796E1F4E7BABCC30160ACE /* libPods-MasonryStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D244301FD95870E645FE161 /* libPods-MasonryStudy.a */; };
+		CE692B801D91054200A28907 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CE692B7F1D91054200A28907 /* UIView+Color.m */; };
+		CE692B831D91072400A28907 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE692B821D91072400A28907 /* BaseViewController.m */; };
+		CE692B861D910B5600A28907 /* Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = CE692B851D910B5600A28907 /* Basic.m */; };
+		CECABAA11D90C1F100A15B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECABAA01D90C1F100A15B3A /* main.m */; };
+		CECABAA41D90C1F100A15B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECABAA31D90C1F100A15B3A /* AppDelegate.m */; };
+		CECABAA71D90C1F100A15B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECABAA61D90C1F100A15B3A /* ViewController.m */; };
+		CECABAAA1D90C1F100A15B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECABAA81D90C1F100A15B3A /* Main.storyboard */; };
+		CECABAAC1D90C1F100A15B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECABAAB1D90C1F100A15B3A /* Assets.xcassets */; };
+		CECABAAF1D90C1F100A15B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECABAAD1D90C1F100A15B3A /* LaunchScreen.storyboard */; };
+		CECABABA1D90C1F100A15B3A /* MasonryStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECABAB91D90C1F100A15B3A /* MasonryStudyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECABAB61D90C1F100A15B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECABA941D90C1F100A15B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECABA9B1D90C1F100A15B3A;
+			remoteInfo = MasonryStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D244301FD95870E645FE161 /* libPods-MasonryStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55739B8B03E0AD66F0CB063 /* Pods-MasonryStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryStudy.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-MasonryStudy/Pods-MasonryStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		B0610B3919053D122F7E0589 /* Pods-MasonryStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryStudy.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-MasonryStudy/Pods-MasonryStudy.release.xcconfig"; sourceTree = "<group>"; };
+		CE692B7D1D91049600A28907 /* MasonryGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryGuide.h; sourceTree = "<group>"; };
+		CE692B7E1D91054200A28907 /* UIView+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
+		CE692B7F1D91054200A28907 /* UIView+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
+		CE692B811D91072400A28907 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CE692B821D91072400A28907 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CE692B841D910B5600A28907 /* Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basic.h; sourceTree = "<group>"; };
+		CE692B851D910B5600A28907 /* Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basic.m; sourceTree = "<group>"; };
+		CE692B871D910BD100A28907 /* MasonryPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryPch.pch; sourceTree = "<group>"; };
+		CECABA9C1D90C1F100A15B3A /* MasonryStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECABAA01D90C1F100A15B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECABAA21D90C1F100A15B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECABAA31D90C1F100A15B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECABAA51D90C1F100A15B3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CECABAA61D90C1F100A15B3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CECABAA91D90C1F100A15B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECABAAB1D90C1F100A15B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECABAAE1D90C1F100A15B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECABAB01D90C1F100A15B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECABAB51D90C1F100A15B3A /* MasonryStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonryStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECABAB91D90C1F100A15B3A /* MasonryStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryStudyUITests.m; sourceTree = "<group>"; };
+		CECABABB1D90C1F100A15B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECABA991D90C1F100A15B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B796E1F4E7BABCC30160ACE /* libPods-MasonryStudy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECABAB21D90C1F100A15B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8AC4212362F09F9FC9F66A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A55739B8B03E0AD66F0CB063 /* Pods-MasonryStudy.debug.xcconfig */,
+				B0610B3919053D122F7E0589 /* Pods-MasonryStudy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B055F5F7BA8F67AEFCD15FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D244301FD95870E645FE161 /* libPods-MasonryStudy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECABA931D90C1F100A15B3A = {
+			isa = PBXGroup;
+			children = (
+				CECABA9E1D90C1F100A15B3A /* MasonryStudy */,
+				CECABAB81D90C1F100A15B3A /* MasonryStudyUITests */,
+				CECABA9D1D90C1F100A15B3A /* Products */,
+				AA8AC4212362F09F9FC9F66A /* Pods */,
+				B055F5F7BA8F67AEFCD15FDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CECABA9D1D90C1F100A15B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECABA9C1D90C1F100A15B3A /* MasonryStudy.app */,
+				CECABAB51D90C1F100A15B3A /* MasonryStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECABA9E1D90C1F100A15B3A /* MasonryStudy */ = {
+			isa = PBXGroup;
+			children = (
+				CECABAA21D90C1F100A15B3A /* AppDelegate.h */,
+				CECABAA31D90C1F100A15B3A /* AppDelegate.m */,
+				CE692B7E1D91054200A28907 /* UIView+Color.h */,
+				CE692B7F1D91054200A28907 /* UIView+Color.m */,
+				CECABAA51D90C1F100A15B3A /* ViewController.h */,
+				CECABAA61D90C1F100A15B3A /* ViewController.m */,
+				CE692B811D91072400A28907 /* BaseViewController.h */,
+				CE692B821D91072400A28907 /* BaseViewController.m */,
+				CE692B841D910B5600A28907 /* Basic.h */,
+				CE692B851D910B5600A28907 /* Basic.m */,
+				CE692B7D1D91049600A28907 /* MasonryGuide.h */,
+				CECABAA81D90C1F100A15B3A /* Main.storyboard */,
+				CECABAAB1D90C1F100A15B3A /* Assets.xcassets */,
+				CECABAAD1D90C1F100A15B3A /* LaunchScreen.storyboard */,
+				CECABAB01D90C1F100A15B3A /* Info.plist */,
+				CE692B871D910BD100A28907 /* MasonryPch.pch */,
+				CECABA9F1D90C1F100A15B3A /* Supporting Files */,
+			);
+			path = MasonryStudy;
+			sourceTree = "<group>";
+		};
+		CECABA9F1D90C1F100A15B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECABAA01D90C1F100A15B3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECABAB81D90C1F100A15B3A /* MasonryStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECABAB91D90C1F100A15B3A /* MasonryStudyUITests.m */,
+				CECABABB1D90C1F100A15B3A /* Info.plist */,
+			);
+			path = MasonryStudyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECABA9B1D90C1F100A15B3A /* MasonryStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECABABE1D90C1F100A15B3A /* Build configuration list for PBXNativeTarget "MasonryStudy" */;
+			buildPhases = (
+				AB3A9926F2DE5E646F779D75 /* [CP] Check Pods Manifest.lock */,
+				CECABA981D90C1F100A15B3A /* Sources */,
+				CECABA991D90C1F100A15B3A /* Frameworks */,
+				CECABA9A1D90C1F100A15B3A /* Resources */,
+				14B01000FD2E34FDE03F2A14 /* [CP] Embed Pods Frameworks */,
+				3DAC66145DB07C7560E306E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasonryStudy;
+			productName = MasonryStudy;
+			productReference = CECABA9C1D90C1F100A15B3A /* MasonryStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECABAB41D90C1F100A15B3A /* MasonryStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECABAC11D90C1F100A15B3A /* Build configuration list for PBXNativeTarget "MasonryStudyUITests" */;
+			buildPhases = (
+				CECABAB11D90C1F100A15B3A /* Sources */,
+				CECABAB21D90C1F100A15B3A /* Frameworks */,
+				CECABAB31D90C1F100A15B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECABAB71D90C1F100A15B3A /* PBXTargetDependency */,
+			);
+			name = MasonryStudyUITests;
+			productName = MasonryStudyUITests;
+			productReference = CECABAB51D90C1F100A15B3A /* MasonryStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECABA941D90C1F100A15B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = miwu;
+				TargetAttributes = {
+					CECABA9B1D90C1F100A15B3A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CECABAB41D90C1F100A15B3A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CECABA9B1D90C1F100A15B3A;
+					};
+				};
+			};
+			buildConfigurationList = CECABA971D90C1F100A15B3A /* Build configuration list for PBXProject "MasonryStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECABA931D90C1F100A15B3A;
+			productRefGroup = CECABA9D1D90C1F100A15B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECABA9B1D90C1F100A15B3A /* MasonryStudy */,
+				CECABAB41D90C1F100A15B3A /* MasonryStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECABA9A1D90C1F100A15B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECABAAF1D90C1F100A15B3A /* LaunchScreen.storyboard in Resources */,
+				CECABAAC1D90C1F100A15B3A /* Assets.xcassets in Resources */,
+				CECABAAA1D90C1F100A15B3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECABAB31D90C1F100A15B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B01000FD2E34FDE03F2A14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-MasonryStudy/Pods-MasonryStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DAC66145DB07C7560E306E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-MasonryStudy/Pods-MasonryStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3A9926F2DE5E646F779D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECABA981D90C1F100A15B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE692B861D910B5600A28907 /* Basic.m in Sources */,
+				CE692B801D91054200A28907 /* UIView+Color.m in Sources */,
+				CE692B831D91072400A28907 /* BaseViewController.m in Sources */,
+				CECABAA71D90C1F100A15B3A /* ViewController.m in Sources */,
+				CECABAA41D90C1F100A15B3A /* AppDelegate.m in Sources */,
+				CECABAA11D90C1F100A15B3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECABAB11D90C1F100A15B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECABABA1D90C1F100A15B3A /* MasonryStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECABAB71D90C1F100A15B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECABA9B1D90C1F100A15B3A /* MasonryStudy */;
+			targetProxy = CECABAB61D90C1F100A15B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECABAA81D90C1F100A15B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECABAA91D90C1F100A15B3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECABAAD1D90C1F100A15B3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECABAAE1D90C1F100A15B3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECABABC1D90C1F100A15B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MasonryStudy/MasonryPch.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECABABD1D90C1F100A15B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MasonryStudy/MasonryPch.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECABABF1D90C1F100A15B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55739B8B03E0AD66F0CB063 /* Pods-MasonryStudy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MasonryStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blemobi.MasonryStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECABAC01D90C1F100A15B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0610B3919053D122F7E0589 /* Pods-MasonryStudy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MasonryStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blemobi.MasonryStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CECABAC21D90C1F100A15B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasonryStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blemobi.MasonryStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MasonryStudy;
+			};
+			name = Debug;
+		};
+		CECABAC31D90C1F100A15B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasonryStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blemobi.MasonryStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MasonryStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECABA971D90C1F100A15B3A /* Build configuration list for PBXProject "MasonryStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECABABC1D90C1F100A15B3A /* Debug */,
+				CECABABD1D90C1F100A15B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECABABE1D90C1F100A15B3A /* Build configuration list for PBXNativeTarget "MasonryStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECABABF1D90C1F100A15B3A /* Debug */,
+				CECABAC01D90C1F100A15B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECABAC11D90C1F100A15B3A /* Build configuration list for PBXNativeTarget "MasonryStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECABAC21D90C1F100A15B3A /* Debug */,
+				CECABAC31D90C1F100A15B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECABA941D90C1F100A15B3A /* Project object */;
+}
